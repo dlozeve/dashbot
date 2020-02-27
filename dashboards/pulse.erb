@@ -1,10 +1,19 @@
 <div class="gridster">
   <ul>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="response_time" data-view="Alert" data-addclass-danger="isTooHigh"></div>
-    </li>
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"> -->
+    <!--   <div data-id="response_time" data-view="Alert" data-addclass-danger="isTooHigh"></div> -->
+    <!-- </li> -->
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="nps" data-view="Number" data-title="NPS" data-moreinfo="past day"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="volume" data-view="Number" data-title="Volume" data-moreinfo="messages in the past 2 hours"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="word_cloud" data-view="Image" data-image="/wordcloud.png"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="emojis" data-view="List" data-unordered="false" data-title="Emojis" data-moreinfo="top emojis!"></div>
     </li>
   </ul>
 </div>
