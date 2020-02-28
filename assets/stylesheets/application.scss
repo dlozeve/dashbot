@@ -148,6 +148,7 @@ h3 {
   width: inherit;
   height: inherit;
   display: table-cell;
+  backdrop-filter: saturate(180%) blur(20px);
   vertical-align: middle;
 }
 
@@ -256,3 +257,150 @@ h3 {
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
+/*  */
+body {
+  background-color: #f1f5fe;
+  mix-blend-mode: multiply;
+}
+.wrapped {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+.logo {
+  z-index: 9999;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 64px;
+  top: 64px;
+}
+#number {
+  position: absolute;
+  left: 96px;
+  top: 200px;
+  font-weight: normal;
+  font-size: 64px;
+  font-family: Matter;
+}
+.bot-logo {
+  z-index: 9999;
+  position: absolute;
+  top: 64px;
+  width: 32px;
+  height: 32px;
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #f1f5fe;
+  mix-blend-mode: multiply;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100vw !important;
+  filter: hue-rotate(80deg) invert(0);
+  mix-blend-mode: multiply;
+}
+#container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+nav {
+  position: absolute;
+  bottom: 48px;
+  z-index: 9999;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+/* Circles */
+.client {
+  position: absolute;
+  top: 64px;
+  left: 120px;
+  z-index: 9999;
+  border-left: 1px solid #adb4bd;
+  padding-left: 24px;
+}
+
+.circles-wrapper {
+  z-index: 3;
+  opacity: 0.5;
+  width: 100vh;
+  height: 100vh;
+}
+.circles-wrapper {
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-transform: translate(50%, 0%);
+  transform: translate(50%, 0%) scale(1.7);
+}
+.circles--splash.circles-inner {
+  -webkit-animation: pulse 2.5s infinite linear;
+  animation: pulse 2.5s infinite linear;
+}
+.circles {
+  width: 100vh;
+  height: 100vh;
+  transition: transform 1.5s, -webkit-transform 1.5s;
+}
+.circles--splash .circle {
+  border-color: #d2d5d9;
+}
+.circle--outer {
+  width: 1248px;
+  height: 1248px;
+}
+.circle--middle {
+  width: 910px;
+  height: 910px;
+}
+.circle--inner {
+  width: 572px;
+  height: 572px;
+}
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #eeeff0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}
+
+li {
+  transform:scale(.8);
+}
