@@ -449,7 +449,6 @@
 
    // create canvas
    canvas = document.createElement("canvas");
-   canvas.setAttribute("id", "canvas-globe");
    canvas.width = size;
    canvas.height = size;
 
