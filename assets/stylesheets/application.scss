@@ -5,6 +5,75 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
+
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22319c3afa2391843c18_Matter-Light.woff2")
+      format("woff2"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22319c3afa858a843c17_Matter-Light.eot")
+      format("embedded-opentype"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22314545513690dce4e0_Matter-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22314545515096dce4df_Matter-Heavy.woff2")
+      format("woff2"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22314e1172bbcdd782a6_Matter-Heavy.eot")
+      format("embedded-opentype"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22318474c4828d1d642e_Matter-Heavy.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22316e3cf016bb0e7a02_Matter-Bold.woff2")
+      format("woff2"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22319c3afacdbf843c15_Matter-Bold.eot")
+      format("embedded-opentype"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22319c3afa8fc8843c16_Matter-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22319c3afab655843c19_Matter-Medium.woff2")
+      format("woff2"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22315216e3238294cfcd_Matter-Medium.eot")
+      format("embedded-opentype"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22325216e3e9f294cfd3_Matter-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22315216e36c7e94cfce_Matter-Regular.woff2")
+      format("woff2"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22328474c486811d6430_Matter-Regular.eot")
+      format("embedded-opentype"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22325216e32f0594cfd0_Matter-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22325216e360bd94cfd1_Matter-SemiBold.woff2")
+      format("woff2"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22319c3afa3a7e843c1a_Matter-SemiBold.eot")
+      format("embedded-opentype"),
+    url("https://assets.website-files.com/5cd5a36e899e7006018481c6/5d3b22315216e33db594cfcf_Matter-SemiBold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 $background-color: #222;
 $text-color: #fff;
 
