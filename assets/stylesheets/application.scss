@@ -113,7 +113,14 @@ h3 {
 // Base widget styles
 // ----------------------------------------------------------------------------
 .gridster {
+  bottom:64px;
+  z-index: 999999999;
+  align-items: center;
+  align-self: flex-end;
   margin: 0px auto;
+}
+#container {
+  display:flex;
 }
 
 .icon-background {
@@ -148,7 +155,7 @@ h3 {
   width: inherit;
   height: inherit;
   display: table-cell;
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(10px);
   vertical-align: middle;
 }
 
@@ -319,10 +326,10 @@ canvas {
 }
 nav {
   position: absolute;
-  bottom: 48px;
+  top: 64px;
+  right:64px;
   z-index: 9999;
-  left: 50%;
-  transform: translate(-50%, 0%);
+
 }
 
 /* Circles */
@@ -402,5 +409,5 @@ nav {
 }
 
 li {
-  transform:scale(.8);
+  // transform:scale(.8);
 }

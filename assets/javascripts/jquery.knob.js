@@ -101,7 +101,7 @@
      w = container.offsetWidth || window.innerWidth;
      h = container.offsetHeight || window.innerHeight;
 
-     camera = new THREE.PerspectiveCamera(18, w / h, 1, 10000);
+     camera = new THREE.PerspectiveCamera(20, w / h, 1, 10000);
      camera.position.z = distance;
 
      scene = new THREE.Scene();
